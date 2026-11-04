@@ -1,0 +1,33 @@
+body {
+    background-color: #f3f6ec;
+    color: #354b35;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#garden {
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+
+
+#flowers {
+    font-size: 60px;
+}
+
+#temperature {
+    font-size: 24px;
+}
