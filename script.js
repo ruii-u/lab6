@@ -1,6 +1,11 @@
 let apiURL = "https://api.open-meteo.com/v1/forecast?latitude=44.01&longitude=-79.45&current=temperature_2m,rain,snowfall";
 
 async function getWeather() {
+
+    document.querySelector("#temperature").textContent = "Updating...";
+    document.querySelector("#message").textContent = "Checking the weather...";
+
+    
     try {
         const response = await fetch(apiURL);
 

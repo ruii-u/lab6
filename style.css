@@ -47,6 +47,22 @@ p {
     margin: 0 0 10px;
 }
 
+button {
+    background-color: #1044b6;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #00154b;
+}
+
 a {
     color: #354b35;
 }
